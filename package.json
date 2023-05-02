@@ -27,7 +27,6 @@
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.23",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.3.2",
-    "@vue/runtime-dom": "latest"
+    "tailwindcss": "^3.3.2"
   }
 }

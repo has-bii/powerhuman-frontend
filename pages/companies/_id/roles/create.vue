@@ -23,7 +23,7 @@
                     </li>
                 </ul>
             </div>
-            <NuxtLink :to="{ name: 'roles' }" class="w-full btn btn-primary mt-[14px]">
+            <NuxtLink :to="{ name: 'companies-id-roles' }" class="w-full btn btn-primary mt-[14px]">
                 Save Role
             </NuxtLink>
         </form>
@@ -32,6 +32,7 @@
 
 <script>
 export default {
+    middleware: 'auth',
     layout: 'form',
 }
 </script>
